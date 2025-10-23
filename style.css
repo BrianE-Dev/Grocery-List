@@ -94,6 +94,16 @@ li {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+  background: #fcd7d7;
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow:  0 5px 4px 1px rgba(255, 255, 255, 0.45), 
+                2px 5px 4px 1px rgba(249, 212, 212, 0.8), 
+                0 8px 4px 1px rgba(248, 222, 250, 0.6);
 }
 
 .deleteBtn {
@@ -186,11 +196,16 @@ main:hover{
 }
 
 input::placeholder {
-  color: #999;
+  color: #ffffff;
 }
 input:focus {
   transform: scale(1.02) translateY(-4px);
+  background: #fcd7d7;
+  box-shadow:  0 5px 4px 1px rgba(255, 255, 255, 0.45), 
+                2px 5px 4px 1px rgba(249, 212, 212, 0.8), 
+                0 8px 4px 1px rgba(248, 222, 250, 0.6);
   transition: 1s ease-in-out;
+
 }
 
 
