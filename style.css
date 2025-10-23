@@ -111,6 +111,8 @@ li:hover {
   box-shadow:  0 5px 4px 1px rgba(255, 255, 255, 0.45), 
                 2px 5px 4px 1px rgba(249, 212, 212, 0.8), 
                 0 8px 4px 1px rgba(248, 222, 250, 0.6);
+  transform: scale(1.1) translateY(-4px);
+  transition: 1s ease-in-out;
 }
 
 .deleteBtn {
