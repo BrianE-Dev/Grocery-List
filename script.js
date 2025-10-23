@@ -34,7 +34,7 @@ function addItem() {
   const name = itemInput.value.trim();
   console.log(name);
   const price = parseFloat(priceInput.value);
-  console.log("NGN",price);
+  console.log(`${name} : NGN${price}`);
   if (name === "" || isNaN(price) || price <= 0) {
     alert("Please enter a valid item name and price.");
     return;
