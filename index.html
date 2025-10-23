@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="head">
+        <h3>My Grocery List</h3>
+        <img src="shopping-logo.png" />
+      </div>
+
+      <div class="input-field">
+        <input type="text" id="inputItem" placeholder="Enter Grocery Item" />
+        <input
+          type="number"
+          id="inputPrice"
+          placeholder="Enter Price"
+          min="0"
+        />
+        
+          <button id="addBtn">Add Item</button>
+      </div>
+
+      <ul id="defaultGroceryList"></ul>
+
+      <div class="total-section">
+          <button id="totalBtn">Calculate Total</button>
+          <button id="clearBtn">Clear All</button>
+        <p id="totalDisplay">Total: NGN0</p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
